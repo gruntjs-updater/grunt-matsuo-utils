@@ -1,0 +1,41 @@
+{
+  "name": "grunt-matsuo-utils",
+  "description": "Matsuo IT utilities for configuring grunt build",
+  "version": "0.1.0",
+  "homepage": "https://github.com/tunguski/grunt-matsuo-utils",
+  "author": {
+    "name": "Marek Romanowski",
+    "email": "marek.romanowski@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tunguski/grunt-matsuo-utils.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tunguski/grunt-matsuo-utils/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/tunguski/grunt-matsuo-utils/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.9.2",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt": "~0.4.5"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
