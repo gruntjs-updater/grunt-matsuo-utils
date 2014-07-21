@@ -30,19 +30,12 @@ exports.matsuo_utils = {
   default_options: function(test) {
     test.expect(1);
 
-    var actual = grunt.file.read('tmp/default_options');
-    var expected = grunt.file.read('test/expected/default_options');
-    test.equal(actual, expected, 'should describe what the default behavior is.');
+    var u = require('../matsuo-utils.js');
+    var obj = {};
+    var defaultConfig = u.base();
+
+    test.equal(defaultConfig.watch.bower.files[0], 'bower.json', 'should watch bower.json');
 
     test.done();
-  },
-  custom_options: function(test) {
-    test.expect(1);
-
-    var actual = grunt.file.read('tmp/custom_options');
-    var expected = grunt.file.read('test/expected/custom_options');
-    test.equal(actual, expected, 'should describe what the custom option(s) behavior is.');
-
-    test.done();
-  },
+  }
 };
