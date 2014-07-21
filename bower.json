@@ -1,3 +1,23 @@
 {
-  "appPath": "testApp"
+  "name": "grunt-matsuo-utils",
+  "version": "0.1.0",
+  "authors": [
+    "Marek Romanowski <marek.romanowski@gmail.com>"
+  ],
+  "description": "Matsuo IT grunt utils",
+  "keywords": [
+    ""
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "underscore": "~1.6.0"
+  },
+  "devDependencies": {}
 }
