@@ -5,8 +5,14 @@
     "Marek Romanowski <marek.romanowski@gmail.com>"
   ],
   "description": "Matsuo IT grunt utils",
+  "main": "matsuo-utils.js",
   "keywords": [
-    ""
+    "gruntplugin",
+    "matsuo",
+    "util",
+    "matsuo util",
+    "matsuo-util",
+    "matsuoutil"
   ],
   "license": "MIT",
   "ignore": [
